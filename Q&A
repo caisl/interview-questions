@@ -1,0 +1,26 @@
+1 hashmap实现 hashcode取余相等太多导致链太长怎么解决 链太长用树状结构为什么树状结构会好点
+哈希链表 哈希碰撞过多导致链过长 影响hashmap性能 好的hash算法和扩容机制一定程度长可以解决 但是即使设计再合理 也免不了会出现链过长的情况 jdk1.8引入红黑树
+http://tech.meituan.com/java-hashmap.html
+2 map怎么排序 用什么现成的可以做到排序 currnhashmap怎么实现  
+
+3线程有几个状态 线程的闭塞态怎么产生的  不用锁怎么让线程防止并发
+创建，就绪，运行，阻塞，time waiting，waiting，死亡 
+blocked time waiting waiting 统称为阻塞状态 
+
+4 解释一下IO  NIO  AIO
+
+5 dubbo怎么实现调用的    dubbo的调用负载均衡怎么实现   dubbo的负载均衡是在哪里做的 zk上还是server上
+
+6 为什么用redis不用memacache   redis好在哪里    redis你都会存些什么  
+
+8 mysql怎么优化     怎么防止脏读的    mysql怎么实现这些的
+  
+9 为什么要用dubbo+redis这个架构    你觉得怎么优化
+
+10 spring启动 
+11  如果数据库宕机了怎么办
+12  怎么做到容灾的 
+13 jvm怎么调优  
+14 如何优化一个很耗事的服务  这个服务里面既有你调用别人的 也有别人调用你的  
+15 线上出现大面积错误时怎么办
+16 aop怎么理解
